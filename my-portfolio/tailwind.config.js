@@ -4,6 +4,29 @@ module.exports = {
   theme: {
     extend: {},
   },
+  theme: {
+    extend: {
+      colors: {
+        matte: {
+          900: '#1f2937', // Example matte color
+        },
+        cool: {
+          900: '#0f172a', // Example cool color
+        },
+      },
+    },
+  }, theme: {
+    extend: {
+      colors: {
+        matte: {
+          900: '#1f2937', // Example matte color
+        },
+        cool: {
+          900: '#0f172a', // Example cool color
+        },
+      },
+    },
+  },
   variants: {
     extend: {},
   },
