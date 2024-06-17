@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "MERN Stack",
     description:
       "A To-Do List App",
-    image: "./todolistmockup.jpeg",
+    image: "./todoappmockup.jpeg",
     link: "https://reactbootcamp.com",
   },
   {
