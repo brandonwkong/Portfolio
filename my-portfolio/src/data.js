@@ -3,8 +3,8 @@ export const projects = [
     title: "React Reserve",
     subtitle: "MERN Stack",
     description:
-      "charles",
-    image: "./images.jpg",
+      "A To-Do List App",
+    image: "./todolistmockup.jpeg",
     link: "https://reactbootcamp.com",
   },
   {
