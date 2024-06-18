@@ -17,12 +17,15 @@ export default function Projects() {
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-6">
-              <div className="flex relative overflow-hidden">
+              className="sm:w-1/2 w-full p-6"
+              style={{ height: '320px' }} // Ensure each project card has the same height
+            >
+              <div className="flex relative overflow-hidden w-full h-full">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full h-80 object-cover object-center transform transition duration-500 ease-in-out hover:scale-105 hover:brightness-20"
+                  className="absolute inset-0 w-full h-full object-cover object-center transform transition duration-500 ease-in-out hover:scale-105 hover:brightness-20"
                   src={project.image}
+                  style={{ height: '100%' }} // Ensure image takes full height of the container
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
