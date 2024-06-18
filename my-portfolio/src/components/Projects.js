@@ -23,7 +23,7 @@ export default function Projects() {
               <div className="flex relative overflow-hidden w-full h-full">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center transform transition duration-500 ease-in-out hover:scale-105 hover:brightness-20"
+                  className="absolute inset-0 w-full h-full object-cover object-center transform transition duration-500 ease-in-out hover:scale-105 hover:brightness-75"
                   src={project.image}
                   style={{ height: '100%' }} // Ensure image takes full height of the container
                 />
