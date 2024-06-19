@@ -1,7 +1,6 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
-import { Link } from 'react-router-dom';
 
 export default function Projects() {
   return (
@@ -10,12 +9,12 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white border border-gray-400 inline-block px-4 py-2">
             My Projects
-          </h1>
+          </h1> 
         </div>
         <div className="flex flex-wrap -m-4">
-          {projects.map((project, index) => (
-            <Link
-              to={`/project/${index}`} // Link to dynamic project details route
+          {projects.map((project) => (
+            <a
+              href={project.link}
               key={project.image}
               className="sm:w-1/2 w-full p-6"
               style={{ height: '320px' }} // Ensure each project card has the same height
@@ -37,7 +36,7 @@ export default function Projects() {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
-            </Link>
+            </a>
           ))}
         </div>
       </div>
