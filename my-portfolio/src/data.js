@@ -8,7 +8,6 @@ export const projects = [
     description:
       "A To-Do List App built using the MERN (MongoDB, Express.js, React, Node.js) stack.",
     image: "./todoappmockup.jpeg",
-    link: "https://reactbootcamp.com",
   },
   {
     id: 1,
@@ -17,7 +16,6 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
   },
   {
     id: 2,
@@ -26,7 +24,6 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
   },
   {
     id: 3,
@@ -35,6 +32,14 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
   },
+];
+
+export const skills = [
+  "JavaScript",
+  "React",
+  "Next.js",
+  "Node",
+  "GraphQL",
+  "Material UI",
 ];
