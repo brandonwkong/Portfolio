@@ -12,9 +12,9 @@ export default function Projects() {
           </h1>
         </div>
         <div className="flex flex-wrap -m-4">
-          {projects.map((project) => (
-            <a
-              href={project.link}
+          {projects.map((project, index) => (
+            <Link
+              to={`/project/${index}`} // Link to dynamic project details route
               key={project.image}
               className="sm:w-1/2 w-full p-6"
               style={{ height: '320px' }} // Ensure each project card has the same height
@@ -36,7 +36,7 @@ export default function Projects() {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>
