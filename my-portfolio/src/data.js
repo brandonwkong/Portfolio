@@ -1,13 +1,17 @@
+// data.js
+
 export const projects = [
   {
+    id: 0,
     title: "React Reserve",
     subtitle: "MERN Stack",
     description:
-      "A To-Do List App",
+      "A To-Do List App built using the MERN (MongoDB, Express.js, React, Node.js) stack.",
     image: "./todoappmockup.jpeg",
     link: "https://reactbootcamp.com",
   },
   {
+    id: 1,
     title: "React Tracks",
     subtitle: "React and Python",
     description:
@@ -16,6 +20,7 @@ export const projects = [
     link: "https://reactbootcamp.com",
   },
   {
+    id: 2,
     title: "DevChat",
     subtitle: "React and Firebase",
     description:
@@ -24,6 +29,7 @@ export const projects = [
     link: "https://reactbootcamp.com",
   },
   {
+    id: 3,
     title: "Epic Todo App",
     subtitle: "React Hooks",
     description:
@@ -31,14 +37,4 @@ export const projects = [
     image: "./project-4.gif",
     link: "https://reactbootcamp.com",
   },
-];
-
-
-export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
 ];
